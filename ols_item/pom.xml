@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>OnlineStore</artifactId>
+        <groupId>com.composer.parent</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ols_item_interface</module>
+        <module>ols_item_service</module>
+    </modules>
+
+    <groupId>com.composer.item</groupId>
+    <artifactId>ols_item</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+
+
+</project>
