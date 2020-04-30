@@ -1,0 +1,50 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5
+#  instance:
+#    prefer-ip-address: true
+#    ip-address: 127.0.0.1
+#    instance-id: ${spring.application.name}:${server.port}
+zuul:
+  prefix: /api # 添加路由前缀
+  routes:
+    item-service: /item/**   #路由到商品的微服务
+    search-service: /search/**  #路由到搜索微服务
+    user-service: /user/**   #路由到用户微服务
+    auth-service: /auth/**   #路由到授权中心微服务
+    cart-service: /cart/**   #路由到购物车微服务
+    order-service: /order/** #路由到订单微服务
+  add-host-header: true    #网关转发时 携带地址头信息
+  sensitive-headers:
+#  retryable: true
+ribbon:
+  ConnectTimeout: 1000 # 连接超时时间(ms)
+  ReadTimeout: 3500 # 通信超时时间(ms)
+  MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 0 # 同一实例的重试次数
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 5000 # 熔断超时时长：5000ms
+ols:
+  jwt:
+    pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: OLS_TOKEN
+  filter:  #拦截白名单
+    allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
