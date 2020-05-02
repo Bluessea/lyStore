@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ols_auth_common" />
+        <module name="ols_item_service" />
+        <module name="ols_upload" />
+        <module name="ols_gateway" />
+        <module name="ols_auth_service" />
+        <module name="ols_goods_web" />
+        <module name="ols_user_service" />
+        <module name="ols_registry" />
+        <module name="ols_common" />
+        <module name="ols_search" />
+        <module name="ols_order" />
+        <module name="ols_item_interface" />
+        <module name="ols_user_interface" />
+        <module name="ols_cart" />
+        <module name="ols_sms" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OnlineStore" options="-parameters" />
+      <module name="ols_auth" options="-parameters" />
+      <module name="ols_auth_common" options="-parameters" />
+      <module name="ols_auth_service" options="-parameters" />
+      <module name="ols_cart" options="-parameters" />
+      <module name="ols_common" options="-parameters" />
+      <module name="ols_gateway" options="-parameters" />
+      <module name="ols_goods_web" options="-parameters" />
+      <module name="ols_item" options="" />
+      <module name="ols_item_interface" options="-parameters" />
+      <module name="ols_item_service" options="-parameters" />
+      <module name="ols_order" options="-parameters" />
+      <module name="ols_registry" options="-parameters" />
+      <module name="ols_search" options="-parameters" />
+      <module name="ols_sms" options="-parameters" />
+      <module name="ols_upload" options="-parameters" />
+      <module name="ols_user" options="-parameters" />
+      <module name="ols_user_interface" options="-parameters" />
+      <module name="ols_user_service" options="-parameters" />
+    </option>
+  </component>
+</project>

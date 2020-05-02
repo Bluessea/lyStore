@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_auth/ols_auth_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_auth/ols_auth_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_goods_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_item/ols_item_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_item/ols_item_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_user/ols_user_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ols_user/ols_user_service" charset="UTF-8" />
+  </component>
+</project>
